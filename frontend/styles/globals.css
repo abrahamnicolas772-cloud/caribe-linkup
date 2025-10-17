@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --caribe-blue: #1E90FF;
+  --caribe-turquoise: #40E0D0;
+  --caribe-coral: #FF7F50;
+  --caribe-gold: #FFD700;
+  --caribe-green: #00C9A7;
+  --caribe-lightgreen: #92FE9D;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+/* Classes personnalisées */
+.bg-caribe-gradient {
+  background: linear-gradient(135deg, #00C9A7 0%, #92FE9D 100%);
+}
+
+.text-caribe-green {
+  color: #00C9A7;
+}
+
+.border-caribe-green {
+  border-color: #00C9A7;
+}
